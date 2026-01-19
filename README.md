@@ -1,5 +1,7 @@
 # AutoCAD MCP Server
 
+<img src="img/claude-logo.png" alt="Claude" width="80" align="right">
+
 Server MCP per controllare AutoCAD tramite Claude Desktop con linguaggio naturale.
 
 <img src="img/schema.png" alt="Schema" width="400">
