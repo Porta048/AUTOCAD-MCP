@@ -32,6 +32,26 @@ COLOR_MAP: dict[str, int] = {
     "brown": 33,
     "purple": 200,
     "pink": 221,
+    # Italian (masculine/feminine)
+    "rosso": 1,
+    "rossa": 1,
+    "giallo": 2,
+    "gialla": 2,
+    "verde": 3,
+    "ciano": 4,
+    "blu": 5,
+    "azzurro": 5,
+    "azzurra": 5,
+    "bianco": 7,
+    "bianca": 7,
+    "grigio": 8,
+    "grigia": 8,
+    "nero": 250,
+    "nera": 250,
+    "arancione": 30,
+    "marrone": 33,
+    "viola": 200,
+    "rosa": 221,
     # Chinese
     "红": 1,
     "红色": 1,
@@ -63,7 +83,7 @@ COLOR_MAP: dict[str, int] = {
     "粉红": 221,
 }
 
-# Shape keywords (English and Chinese)
+# Shape keywords (English, Italian, and Chinese)
 SHAPE_KEYWORDS: dict[str, str] = {
     # English
     "line": "line",
@@ -79,6 +99,20 @@ SHAPE_KEYWORDS: dict[str, str] = {
     "dimension": "dimension",
     "hatch": "hatch",
     "fill": "hatch",
+    # Italian
+    "linea": "line",
+    "cerchio": "circle",
+    "arco": "arc",
+    "ellisse": "ellipse",
+    "rettangolo": "rectangle",
+    "quadrato": "rectangle",
+    "polilinea": "polyline",
+    "poligono": "polyline",
+    "testo": "text",
+    "quota": "dimension",
+    "quotatura": "dimension",
+    "riempimento": "hatch",
+    "tratteggio": "hatch",
     # Chinese
     "线": "line",
     "直线": "line",
@@ -102,7 +136,7 @@ SHAPE_KEYWORDS: dict[str, str] = {
     "图案填充": "hatch",
 }
 
-# Action keywords (English and Chinese)
+# Action keywords (English, Italian, and Chinese)
 ACTION_KEYWORDS: dict[str, str] = {
     # English
     "draw": "draw",
@@ -122,6 +156,22 @@ ACTION_KEYWORDS: dict[str, str] = {
     "remove": "erase",
     "erase": "erase",
     "save": "save",
+    # Italian
+    "disegna": "draw",
+    "crea": "draw",
+    "aggiungi": "draw",
+    "inserisci": "draw",
+    "traccia": "draw",
+    "modifica": "modify",
+    "cambia": "modify",
+    "sposta": "move",
+    "ruota": "rotate",
+    "scala": "scale",
+    "ridimensiona": "scale",
+    "elimina": "erase",
+    "cancella": "erase",
+    "rimuovi": "erase",
+    "salva": "save",
     # Chinese
     "画": "draw",
     "绘制": "draw",
