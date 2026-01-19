@@ -1,0 +1,15 @@
+{
+    "server": {
+        "name": "AutoCAD MCP Server",
+        "version": "1.0.0"
+    },
+    "cad": {
+        "type": "AUTOCAD",
+        "startup_wait_time": 20,
+        "command_delay": 0.5
+    },
+    "output": {
+        "directory": "./output",
+        "default_filename": "drawing.dwg"
+    }
+}
