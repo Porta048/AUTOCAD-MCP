@@ -1,6 +1,6 @@
 # AutoCAD MCP Server <img src="img/claude-logo.png" alt="Claude" width="32">
 
-Server MCP per controllare AutoCAD tramite Claude Desktop con linguaggio naturale.
+Server MCP per controllare AutoCAD tramite Claude Desktop usando il linguaggio naturale.
 
 <img src="img/schema.png" alt="Schema" width="400">
 
@@ -15,7 +15,7 @@ Documentazione in inglese: [readme-eng.md](readme-eng.md)
 ## Installazione
 
 ```bash
-git clone https://github.com/yourusername/autocad-mcp.git
+git clone https://github.com/Porta048/autocad-mcp.git
 cd autocad-mcp
 pip install -e .
 ```
@@ -34,7 +34,13 @@ Aggiungi in `%APPDATA%\Claude\claude_desktop_config.json`:
 }
 ```
 
-![Configurazione](img/cursor_config.png)
+## Avvio
+
+Dopo l'installazione puoi avviare il server con:
+
+```bash
+autocad-mcp
+```
 
 ## Tools
 
@@ -64,10 +70,10 @@ Aggiungi testo "Hello" a (50, 50)
 
 `1` Rosso | `2` Giallo | `3` Verde | `4` Ciano | `5` Blu | `6` Magenta | `7` Bianco
 
-## Config CAD
+## Configurazione CAD
 
 In `src/autocad_mcp/config.json` imposta `cad.type`: `AUTOCAD`, `GCAD`, o `ZWCAD`
 
-## License
+## Licenza
 
 MIT

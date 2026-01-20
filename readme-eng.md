@@ -2,7 +2,7 @@
 
 MCP server to control AutoCAD through Claude Desktop using natural language.
 
-<img src="img/schema.png" alt="Schema" width="400">
+<img src="img/schema.png" alt="Diagram" width="400">
 
 ## Requirements
 
@@ -13,7 +13,7 @@ MCP server to control AutoCAD through Claude Desktop using natural language.
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/autocad-mcp.git
+git clone https://github.com/Porta048/autocad-mcp.git
 cd autocad-mcp
 pip install -e .
 ```
@@ -32,7 +32,13 @@ Add to `%APPDATA%\Claude\claude_desktop_config.json`:
 }
 ```
 
-![Configuration](img/cursor_config.png)
+## Start
+
+After installation you can start the server with:
+
+```bash
+autocad-mcp
+```
 
 ## Tools
 
@@ -62,7 +68,7 @@ Add text "Hello" at (50, 50)
 
 `1` Red | `2` Yellow | `3` Green | `4` Cyan | `5` Blue | `6` Magenta | `7` White
 
-## CAD Config
+## CAD Configuration
 
 In `src/autocad_mcp/config.json` set `cad.type`: `AUTOCAD`, `GCAD`, or `ZWCAD`
 
